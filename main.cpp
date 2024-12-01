@@ -7,8 +7,8 @@
 
 
 struct CPU {
-    using Byte = unsigned char;
-    using Word = unsigned short;
+    using Byte = unsigned char; //8 Bits
+    using Word = unsigned short; // 4 Bytes or 32 Bits
 
     Word PC;    // program Counter
     Word SP;    // Stack Counter
